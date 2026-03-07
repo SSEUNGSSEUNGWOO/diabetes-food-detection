@@ -57,18 +57,20 @@ Object Detection 모델
 
 # 📂 Project Structure
 
+```
 diabetes-food-detection
-
+│
 ├── main.py           # 실행 파일
 ├── model.py          # 음식 탐지, 위험성 시각화 모델
 ├── requirements.txt
 ├── README.md
-
-├── test_images       # 입력 이미지
+│
+├── sample_images       # 입력 이미지
 │   └── test1.png
-
-└── model_images      # 결과 이미지
-└── test1_result.png
+│
+└── images      # 결과 이미지
+    └── result_example.png
+```
 
 ---
 
