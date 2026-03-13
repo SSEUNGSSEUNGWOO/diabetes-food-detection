@@ -8,6 +8,7 @@ Object Detection 모델(DETR)을 활용해 음식 객체를 탐지하고,
 ---
 
 # 📷 Demo
+(데모 이미지는 OpenAI의 ChatGPT 기반 이미지 생성 기능을 활용해 제작되었습니다.)
 
 ## Input Image
 
