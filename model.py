@@ -41,7 +41,10 @@ def detect_food(image):
     )[0]
 
     draw = ImageDraw.Draw(image)
-    font = ImageFont.truetype("/Library/Fonts/Arial Unicode.ttf", size=26)
+    try:
+        font = ImageFont.truetype("arial.ttf", size=26)
+    except IOError:
+        font = ImageFont.load_default()
 
     for score, label, box in zip(results["scores"], results["labels"], results["boxes"]):
         label_name = model.config.id2label[label.item()]

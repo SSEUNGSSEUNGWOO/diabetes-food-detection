@@ -1,9 +1,10 @@
 # 🍎 Diabetes Food Risk Detection
 
-이미지 속 음식을 인식하고 당뇨 환자에게 위험한 음식인지 판단하는 AI 프로젝트입니다.
+HuggingFace의 DETR 모델을 활용해 **Object Detection 파이프라인 전체를 직접 구현**해본 학습용 프로젝트.
 
-Object Detection 모델(DETR)을 활용해 음식 객체를 탐지하고,
-탐지된 음식에 대해 당뇨 환자 기준 위험도를 분류합니다.
+이미지에서 음식 객체를 탐지하고, 탐지된 음식에 대해 당뇨 환자 기준 위험도를 색상으로 시각화합니다.
+
+> DETR 모델 사용법, HuggingFace Transformers 파이프라인 구조, bounding box 시각화까지 end-to-end로 익히는 것을 목표로 했습니다.
 
 ---
 
